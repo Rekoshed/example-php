@@ -14,7 +14,9 @@
         }
     ],
     "require": {
-        "tightenco/collect": "^6.4"
+        "tightenco/collect": "^6.4",
+	"php": "^7.2",
+        "another-vendor/package": "1.*"
     },
     "autoload": {
             "files": [
