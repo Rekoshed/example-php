@@ -1,0 +1,24 @@
+{
+    "name": "rekoshed/example-php",
+    "description": "example package",
+    "keywords": ["rekoshed", "php", "composer"],
+    "license": "MIT",
+    "bin": [
+        "./sayHi",
+        "./sayBye"
+    ],
+    "authors": [
+        {
+            "name": "rekoshed",
+            "email": "rekoshed@yandex.ru"
+        }
+    ],
+    "require": {
+        "tightenco/collect": "^6.4"
+    },
+    "autoload": {
+            "files": [
+                "src/Runner.php"
+                           ]
+        }
+}
