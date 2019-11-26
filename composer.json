@@ -1,5 +1,6 @@
 {
     "name": "rekoshed/example-php",
+    "minimum-stability": "dev",
     "description": "example package",
     "keywords": ["rekoshed", "php", "composer"],
     "license": "MIT",
